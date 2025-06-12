@@ -10,4 +10,4 @@ additionalProperties:
   limit: 1
   website: https://doc.sun-panel.top/zh_cn
   github: https://github.com/hslr-s/sun-panel
-  document: https://doc.sun-panel.top/zh_cn/usage/quick_deploy.html
+  document:
