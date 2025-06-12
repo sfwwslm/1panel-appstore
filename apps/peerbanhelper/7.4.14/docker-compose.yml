@@ -10,7 +10,7 @@ services:
                 limits:
                     cpus: ${CPUS}
                     memory: ${MEMORY_LIMIT}
-        image: ghostchu/peerbanhelper:v7.4.15
+        image: ghostchu/peerbanhelper:v7.4.14
         labels:
             createdBy: Apps
         volumes:
