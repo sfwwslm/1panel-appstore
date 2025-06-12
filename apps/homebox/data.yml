@@ -11,3 +11,5 @@ additionalProperties:
   website:
   github: https://github.com/XGHeaven/homebox.git
   document:
+  architectures:
+    - amd64

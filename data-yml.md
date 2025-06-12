@@ -34,19 +34,20 @@ v1.3 及以上版本可以在 1Panel 宿主机使用 1panel app init <应用的 
 > 本文件主要用于声明应用的一些信息
 
 ```yml
-additionalProperties:  #固定参数
-    key: halo   #应用的 key ，仅限英文，用于在 Linux 创建文件夹
-    name: Halo  #应用名称
-    tags:
-        - WebSite #应用标签，可以有多个，请参照下方的标签列表
-    shortDescZh: 强大易用的开源建站工具 #应用中文描述，不要超过30个字
-    shortDescEn: Powerful and easy-to-use open source website builder #应用英文描述
-    type: website  #应用类型，区别于应用分类，只能有一个，请参照下方的类型列表
-    crossVersionUpdate: true  #是否可以跨大版本升级
-    limit: 0  #应用安装数量限制，0 代表无限制
-    website: https://halo.run/  #官网地址
-    github: https://github.com/halo-dev/halo #github 地址
-    document: https://docs.halo.run/ #文档地址
+additionalProperties: #固定参数
+  key: halo #应用的 key ，仅限英文，用于在 Linux 创建文件夹
+  name: Halo #应用名称
+  tags:
+    - WebSite #应用标签，可以有多个，请参照下方的标签列表
+  shortDescZh: 强大易用的开源建站工具 #应用中文描述，不要超过30个字
+  shortDescEn: Powerful and easy-to-use open source website builder #应用英文描述
+  type: website #应用类型，区别于应用分类，只能有一个，请参照下方的类型列表
+  crossVersionUpdate: true #是否可以跨大版本升级
+  limit: 0 #应用安装数量限制，0 代表无限制
+  website: https://halo.run/ #官网地址
+  github: https://github.com/halo-dev/halo #github 地址
+  document: https://docs.halo.run/ #文档地址
+  architectures: #支持的架构 - amd64 - arm64
 ```
 
 应用标签 - tags 字段（持续更新。。。）

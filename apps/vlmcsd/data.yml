@@ -11,3 +11,5 @@ additionalProperties:
   website:
   github: https://github.com/mikolatero/docker-vlmcsd
   document:
+  architectures:
+    - amd64
