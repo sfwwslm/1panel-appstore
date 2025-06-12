@@ -11,5 +11,3 @@ additionalProperties:
   website: https://doc.sun-panel.top/zh_cn
   github: https://github.com/hslr-s/sun-panel
   document:
-  architectures:
-    - amd64

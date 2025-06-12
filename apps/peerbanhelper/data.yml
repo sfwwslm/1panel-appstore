@@ -11,5 +11,3 @@ additionalProperties:
   website: https://docs.pbh-btn.com/docs/intro
   github: https://github.com/PBH-BTN/PeerBanHelper
   document:
-  architectures:
-    - amd64
