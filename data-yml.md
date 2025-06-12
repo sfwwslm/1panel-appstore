@@ -81,7 +81,7 @@ additionalProperties: #固定参数
 
 如果要生成上面的表单，需要这么填写 data.yml
 
-```text
+```yml
 additionalProperties:  #固定参数
     formFields:
         - default: ""
