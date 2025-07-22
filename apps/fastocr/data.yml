@@ -1,0 +1,13 @@
+additionalProperties:
+  key: fastocr
+  name: fastocr
+  tags:
+    - Tool
+  shortDescZh: 验证码识别
+  shortDescEn:
+  type: tool
+  crossVersionUpdate: true
+  limit: 1
+  website:
+  github: https://github.com/sfwwslm/fastocr.git
+  document:
