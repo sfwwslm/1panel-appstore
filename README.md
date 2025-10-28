@@ -5,9 +5,5 @@
 ## 使用说明
 
 ```sh
-rm -rf /tmp/1panel-appstore
-
-git clone https://github.com/sfwwslm/1panel-appstore.git /tmp/1panel-appstore/
-
-cp -rf /tmp/1panel-appstore/apps/* /opt/1panel/resource/apps/local/
+curl -fsSL https://raw.githubusercontent.com/sfwwslm/1panel-appstore/refs/heads/main/install.sh | sudo sh
 ```
