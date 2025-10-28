@@ -1,4 +1,4 @@
-# 1Panel 官方应用商店
+# 1Panel 本地应用商店
 
 本项目参考 [1Panel](https://github.com/1Panel-dev/appstore) 官方应用商店
 
