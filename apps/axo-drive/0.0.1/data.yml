@@ -4,7 +4,7 @@ additionalProperties:
       edit: true
       envKey: PANEL_APP_PORT_HTTP
       labelEn: Port
-      labelZh: 端口
+      labelZh: HTTP 端口
       required: true
       rule: paramPort
       type: number
@@ -12,7 +12,7 @@ additionalProperties:
       edit: true
       envKey: PANEL_APP_PORT_HTTPS
       labelEn: Port
-      labelZh: 端口
+      labelZh: HTTPS 端口
       required: true
       rule: paramPort
       type: number

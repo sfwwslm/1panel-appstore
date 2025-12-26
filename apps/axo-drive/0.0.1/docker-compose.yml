@@ -22,4 +22,4 @@ services:
           - ${HOST_IP}:${PANEL_APP_PORT_HTTPS}:5006
         environment:
           - TZ=Asia/Shanghai
-        restart: always
+        restart: unless-stopped
