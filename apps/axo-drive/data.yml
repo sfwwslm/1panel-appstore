@@ -1,0 +1,13 @@
+additionalProperties:
+  key: axo-drive
+  name: axo-drive
+  tags:
+    - Tool
+  shortDescZh: 轻量级、零运行时依赖的局域网文件管理服务，提供 Web UI + WebDAV 挂载能力。
+  shortDescEn: A lightweight, zero-runtime-dependency LAN file manager with Web UI + WebDAV support.
+  type: tool
+  crossVersionUpdate: true
+  limit: 1
+  website: https://github.com/sfwwslm/axo-drive
+  github: https://github.com/sfwwslm/axo-drive
+  document:
