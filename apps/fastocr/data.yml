@@ -9,5 +9,5 @@ additionalProperties:
   crossVersionUpdate: true
   limit: 1
   website:
-  github: https://github.com/sfwwslm/fastocr.git
+  github: https://github.com/sfwwslm/fastocr
   document:
