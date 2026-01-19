@@ -1,0 +1,13 @@
+additionalProperties:
+  key: vust-core
+  name: vust-core
+  tags:
+    - Tool
+  shortDescZh: 为 Vust Desk 应用提供后端支持的核心服务。它负责处理用户认证、数据同步以及其他关键的业务逻辑。
+  shortDescEn: 
+  type: tool
+  crossVersionUpdate: true
+  limit: 1
+  website: https://github.com/sfwwslm/vust-core
+  github: https://github.com/sfwwslm/vust-core
+  document:
