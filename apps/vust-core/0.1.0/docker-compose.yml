@@ -10,7 +10,7 @@ services:
                 limits:
                     cpus: ${CPUS}
                     memory: ${MEMORY_LIMIT}
-        image: sfwwslm/vust-core:0.0.7
+        image: sfwwslm/vust-core:0.1.0
         labels:
             createdBy: Apps
         volumes:
@@ -22,4 +22,4 @@ services:
           - ${HOST_IP}:${PANEL_APP_PORT_HTTPS}:9991
         environment:
           - TZ=Asia/Shanghai
-        restart: unless-stopped
+        restart: always
