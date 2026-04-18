@@ -1,0 +1,13 @@
+additionalProperties:
+  key: vlmcsd
+  name: vlmcsd
+  tags:
+    - Tool
+  shortDescZh: 微软KMS激活
+  shortDescEn: vlmcsd is a replacement for Microsoft's KMS server.
+  type: tool
+  crossVersionUpdate: true
+  limit: 1
+  website:
+  github: https://github.com/mikolatero/docker-vlmcsd
+  document:

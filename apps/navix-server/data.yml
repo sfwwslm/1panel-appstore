@@ -1,0 +1,13 @@
+additionalProperties:
+  key: navix-server
+  name: Navix Server
+  tags:
+    - Tool
+  shortDescZh: 为 Navix 应用提供后端支持的核心服务。它负责处理用户认证、数据同步以及其他关键的业务逻辑。
+  shortDescEn: 
+  type: tool
+  crossVersionUpdate: true
+  limit: 1
+  website: https://github.com/sfwwslm/navix
+  github: https://github.com/sfwwslm/navix
+  document:

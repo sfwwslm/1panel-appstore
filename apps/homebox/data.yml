@@ -1,0 +1,13 @@
+additionalProperties:
+  key: homebox
+  name: homebox
+  tags:
+    - Tool
+  shortDescZh: 网络测速
+  shortDescEn:
+  type: tool
+  crossVersionUpdate: true
+  limit: 1
+  website:
+  github: https://github.com/XGHeaven/homebox.git
+  document:

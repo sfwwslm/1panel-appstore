@@ -1,0 +1,22 @@
+networks:
+  1panel-network:
+    external: true
+
+services:
+  fastocr:
+    container_name: ${CONTAINER_NAME}
+    deploy:
+      resources:
+        limits:
+          cpus: ${CPUS}
+          memory: ${MEMORY_LIMIT}
+    image: sfwwslm/fastocr:0.1.1
+    labels:
+      createdBy: Apps
+    networks:
+      - 1panel-network
+    ports:
+      - ${HOST_IP}:${PANEL_APP_PORT_HTTP}:20000
+    environment:
+      - TZ=Asia/Shanghai
+    restart: always

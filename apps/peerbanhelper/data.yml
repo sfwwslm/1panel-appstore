@@ -1,0 +1,13 @@
+additionalProperties:
+  key: peerbanhelper
+  name: peerbanhelper
+  tags:
+    - Tool
+  shortDescZh: 自动封禁不受欢迎、吸血和异常的 BT 客户端，并支持自定义规则。
+  shortDescEn:
+  type: tool
+  crossVersionUpdate: true
+  limit: 1
+  website: https://docs.pbh-btn.com/docs/intro
+  github: https://github.com/PBH-BTN/PeerBanHelper
+  document:
